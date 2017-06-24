@@ -24,6 +24,7 @@ public class Generator {
 		 12 1+2+12 15
 		 13 1+3+13  17
 		 변경
+		 또 변경
 		 */
 		
 		
