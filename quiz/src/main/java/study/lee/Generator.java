@@ -25,6 +25,7 @@ public class Generator {
 		 13 1+3+13  17
 		 변경
 		 또 변경
+		 브랜치
 		 */
 		
 		
