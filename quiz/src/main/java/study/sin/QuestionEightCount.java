@@ -41,7 +41,7 @@ public class QuestionEightCount {
 		int range = Integer.parseInt(rangeStr);
 
 		int eightCount = 0;
-
+//
 		for (int jarisu = 1; jarisu < rangeStr.length(); jarisu++) {
 			eightCount += range/(getTenDivisor(jarisu));
 		}
