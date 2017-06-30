@@ -43,12 +43,12 @@ public class QuestionEightCount {
 		int eightCount = 0;
 //
 		for (int jarisu = 1; jarisu < rangeStr.length(); jarisu++) {
-			eightCount += range/(getTenDivisor(jarisu));
+			eightCount += range/(getDivisor(jarisu));
 		}
 		System.out.println(eightCount);
 	}
 
-	private static int getTenDivisor(int jarisu) {
+	private static int getDivisor(int jarisu) {
 		int divisor = 10;
 		for (int i = 1; i < jarisu; i++) {
 			divisor = divisor * divisor;
