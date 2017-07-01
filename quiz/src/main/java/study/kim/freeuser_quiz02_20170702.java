@@ -8,7 +8,7 @@ public class freeuser_quiz02_20170702 {
 			예를들어 S={1, 3, 4, 8, 13, 17, 20} 이 주어졌다면, 결과값은 (3, 4)가 될 것이다.
 
 	    * 
-	    * 
+	    *  
 	    * */
 		public static void main(String[] args) {
 			
