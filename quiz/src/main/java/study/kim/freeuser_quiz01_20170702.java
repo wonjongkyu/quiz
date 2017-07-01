@@ -22,6 +22,7 @@ public class freeuser_quiz01_20170702 {
 			 
 			 //String inputStr = sc.nextLine();
 			 //sc.close();	
+			
 			 
 			
 			 String inputStr = "10000";
