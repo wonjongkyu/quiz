@@ -11,24 +11,26 @@ public class JK_ETC_02 {
 	  
 	public static void main(String[] args) {
 		int test = 10;
-		System.out.println("test :" + test);
-		add(--test); //9
-		//--test;
-		System.out.println("test2 :" + test);
-		//test++;
-		min(test--);//
-		System.out.println("test3 :" + test);
+		System.out.println("test :" + test); //10
+		add(--test);
+	
+		System.out.println("test2 :" + test); // 9
+		
+		min(test--);
+		System.out.println("test3 :" + test); // 8
+		
+		
 	}
 	
 	public static void add(int test){
-		System.out.println("add before:" + test);
+		System.out.println("add before:" + test); // 9
 		++test;
-		System.out.println("add after:" + test);
+		System.out.println("add after:" + test); // 10
 	}
 	
 	public static void min(int test){
-		System.out.println("min before:" + test);
-		System.out.println(test--);
-		System.out.println(--test);
+		System.out.println("min before:" + test); // 9
+		System.out.println(test--); // 9
+		System.out.println(--test); // 7
 	}
 }
