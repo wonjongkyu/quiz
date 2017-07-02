@@ -2,6 +2,7 @@ package study.kim;
 
 import java.util.Scanner;
 
+
 public class freeuser_quiz01_20170702 {
 
 		/*
