@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class BubbleSort {
 
 	public static void main(String[] args) {
-
+		
 		BubbleSort.bubbleSorting();
 
 		System.out.println("\n\ninput data:");

@@ -1,3 +1,4 @@
+package study.sin;
 public class QuestionMultipleNum {
 
 	public static void main(String[] args) {
